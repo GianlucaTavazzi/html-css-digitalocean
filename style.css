@@ -329,3 +329,162 @@ main{
     font-size: 16px;
     color: rgba(3,27,78,.7);
 }
+
+.design{
+    background-color: #f3f5f9;
+    padding: 100px 0;
+}
+
+.design h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #031b4e;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.design p{
+    font-size: 20px;
+    color:rgba(3,27,78,.7);
+}
+
+.schermata{
+    margin-top: 40px;
+}
+
+.design img{
+    max-width: 80%;
+    height: auto;
+}
+
+.schermata .glyphicon-menu-left, .glyphicon-menu-right{
+    font-size: 30px;
+    color: #031b4e;
+}
+
+.schermata .glyphicon-menu-left{
+    opacity: 0.3;
+}
+
+.schermata .glyphicon-menu-right:hover{
+    color: #0069ff;
+    cursor: pointer;
+}
+
+.descrizione p{
+    font-size: 16px;
+    padding-top: 25px;
+    color: rgba(3,27,78,.7);
+}
+
+.fa-circle{
+    color: #0069ff;
+    font-size: 10px;
+}
+
+.fa-circle:hover{
+    cursor: pointer;
+}
+
+.business{
+    padding: 100px 0;
+}
+
+.business h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #031b4e;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.business h3{
+    font-size: 18px;
+}
+
+.business p{
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+    padding-right: 15px;
+}
+
+#correzione-business{
+    margin-bottom: 32px;
+}
+
+.business a{
+    font-size: 16px;
+    color: #0069ff;
+    text-decoration: none;
+}
+
+.business .glyphicon-menu-right{
+    font-size: 12px;
+    color: #0069ff;
+}
+
+.world{
+    padding: 100px 0;
+    background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+    color: white;
+}
+
+.world h2{
+    font-size: 36px;
+    color: white;
+}
+
+.tabelle{
+    margin-top: 50px;
+}
+
+tr{
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    font-size: 13px;
+}
+
+.ultimo{
+    border-bottom: 0;
+}
+
+#destra{
+    text-transform: uppercase;
+    width:15%;
+    border-top: 0;
+    padding-bottom: 15px;
+}
+
+#centro{
+    opacity: 0.6;
+    border-top: 0;
+    padding-bottom: 15px;
+}
+
+#sinistra{
+    text-decoration: none;
+    text-align: right;
+    border-top: 0;
+    padding-bottom: 10px;
+}
+
+#sinistra a{
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.world .glyphicon-menu-right{
+    font-size: 10px;
+    color: white;
+    opacity: 0.6;
+}
+
+#sinistra a:hover{
+    color: #005fe6;
+    opacity: 1;
+}
+
+.world .glyphicon-menu-right:hover{
+    color: #005fe6;
+    opacity: 1;
+}
