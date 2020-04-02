@@ -275,3 +275,57 @@ main{
 .glyphicon-menu-right{
     font-size: 11px;
 }
+
+.deploy{
+    padding: 100px 0;
+}
+
+.deploy h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #031b4e;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.deploy p{
+    font-size: 20px;
+    color:rgba(3,27,78,.7);
+}
+
+.deploy-lista{
+    margin-top: 40px;
+}
+
+.deploy-lista ul{
+    list-style-type: none;
+}
+
+.deploy-lista ul li{
+    padding: 15px 30px;
+    border-left: 2px solid #e5e8ed;
+    color: rgba(3,27,78,.5);
+}
+
+.deploy-lista ul li:hover{
+    color: #031b4e;
+    cursor: pointer;
+}
+
+.deploy-lista ul li:first-child{
+    border-color: #0069ff;
+    color: #031b4e;
+}
+
+.deploy-tab{
+    margin-top: 40px
+}
+
+.deploy-tab h3{
+    font-size: 18px;
+}
+
+.deploy-tab p{
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+}
