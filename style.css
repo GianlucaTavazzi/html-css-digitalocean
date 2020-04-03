@@ -602,4 +602,48 @@ blockquote footer::before{
 
 footer{
     background-color: #010e28;
+    padding: 100px 0;
+    color: hsla(0,0%,100%,.5);
+}
+
+.footer-top{
+    padding-bottom: 50px;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
+.lista-footer li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+#footer-primo{
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+footer .lista-footer a{
+    color: hsla(0,0%,100%,.5);
+    text-decoration: none;
+}
+
+.footer-bottom p{
+    margin-top: 25px;
+}
+
+.footer-bottom img{
+    height: 50px;
+    margin-right: 15px;
+}
+
+.icone-footer ul li i{
+    font-size: 24px;
+    list-style-type: none;
+    color: hsla(0,0%,100%,.5);
+    padding-top: 32px;
+}
+
+footer .lista-footer a:hover,
+.icone-footer ul li i:hover{
+    color: white;
 }
