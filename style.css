@@ -618,6 +618,10 @@ blockquote footer::before{
     .developement .right .glyphicon-menu-right{
         display: none;
     }
+
+    .wrapper{
+        margin-left: 8.33%;
+    }
 }
 
 .getstarted{
