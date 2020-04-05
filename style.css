@@ -207,6 +207,39 @@ main{
     margin: 20px 0;
 }
 
+.jumbotron-right .before::before{
+    content: "";
+    width: 34%;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 4%;
+    top: 73%;
+}
+
+.jumbotron-right .before::after{
+    content: "";
+    width: 34%;;
+    height: 1px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    top: 73%;
+}
+
+@media (min-width:992px) and (max-width: 1200px){
+    .jumbotron-right .before::before{
+        width:30%;
+    }
+
+    .jumbotron-right .before::after{
+        width:30%;
+    }
+
+}
+
 .jumbotron-link a{
     width: 46.5%;
     padding: 12px 0;
@@ -272,8 +305,9 @@ main{
     text-decoration: none;
 }
 
-.glyphicon-menu-right{
+.brand .glyphicon-menu-right{
     font-size: 11px;
+    color: #0069ff;
 }
 
 .deploy{
@@ -390,6 +424,15 @@ main{
     padding: 100px 0;
 }
 
+.business .block{
+    margin-bottom: 30px;
+}
+
+.www-Icon--xlarge{
+    width: 40px;
+    height:40px;
+}
+
 .business h2{
     font-size: 36px;
     font-weight: bold;
@@ -406,10 +449,6 @@ main{
     font-size: 16px;
     color: rgba(3,27,78,.7);
     padding-right: 15px;
-}
-
-#correzione-business{
-    margin-bottom: 32px;
 }
 
 .business a{
@@ -553,6 +592,7 @@ blockquote footer cite{
 
 blockquote footer{
     padding-top: 15px;
+    background-color: white;
 }
 
 .wrapper a{
